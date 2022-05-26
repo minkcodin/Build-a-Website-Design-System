@@ -254,7 +254,29 @@ color-code {
     line-height: 20px;
 }
 
+.rulesets {
+    width: 1200px;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.rule-item > h1, .rule-item > h2, .rule-item > h3, .rule-item > h4, .rule-item > p.body-text, .rule-item > p.body-text-alt {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
 .rule-item > p {
-    width: 200px;
+    width: 170px;
     height: 150px;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
 }
