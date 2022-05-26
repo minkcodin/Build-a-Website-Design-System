@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Merriweather:ital@0;1&family=Work+Sans:ital,wght@0,400;0,500;0,800;1,400;1,500;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Inter:wght@300;400;500;700&family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Inter:wght@300;400;500;700&family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <link rel="stylesheet" href="./resources/css/design-system.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design System</title>
+</head>
+<body>
+<!-- HEADER-->
+     <header class="flex-column">
+         <introduction-head class="flex-row">
+            <a href="https://www.codecademy.com" target="_blank"><img src="./resources/img/codecademy-logo-vector.svg" alt="codecademy-logo" class="logo"></a>
+            <div>
+                <p id="project" class="slate-300">Front-end Engineer project</p>
+                <p id="written" class="slate-900">by <span id="username">@minkcodin</span></p>
+            </div>
+        </introduction-head>
+        
+        <introduction-title class="flex-column">
+            <h3 class="blue-600">Challenge Project #2</h3>
+            <h1>Build a Website Design System</h1>
+            <a href="https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-improved-styling-with-css/modules/wdcp-22-build-a-website-design-system/projects/independent-project-web-design-system" target="_blank" class="link-text slate-300 flex-row">Project Overview, Goals & Requirements <img src="./resources/img/bi_arrow-right-short.svg" alt="bi_arrow-right-short" class="icon"></a>
+        </introduction-title>
+    </header>
+
+<!-- NAV AND CONTENTS  -->
+
+     <main>
+        <nav>
+            <ul class="flex-column">
+                <li><h3 class="blue-600">CONTENTS</h3></li>
+                <div id="list-nav" class="flex-column">
+                    <li><a href="#Colors"><h4>🎨 Colors</h4></a></li>
+                    <li><a href="#Typography"><h4>✏️ Typography</h4></a></li>
+                    <li><a href="#"><h4>🎛 Button</h4></a></li>
+                    <li><a href="#"><h4>✉️ Spacing</h4></a></li>
+                    <li><a href="#"><h4>✍️ Input</h4></a></li>
+                    <li><a href="#"><h4>❤️ Icons</h4></a></li>
+                    <li><a href="#"><h4>🥅 Grid</h4></a></li>
+                </div>
+            </ul>
+         </nav>
+
+        <content class="flex-column">
+            <content-head class="flex-column">
+                <h4 class="green-600">PRESENTING</h4>
+                <h1 class="slate-900">A Website Design System  <span><img src="./resources/img/image 1.png"></span></h1>
+            </content-head>
+
+            <div>
+                <!-- Colors -->
+                <section id="Colors">
+                    <h1>🎨 Colors</h1>
+                    <color class="flex-column">
+                        <palette class="flex-row">
+                            <h4>Slate</h4>
+                            <color-saturation class="flex-row">
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-50 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>50</color-class>
+                                               <color-code>#f8fafc</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-100 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>100</color-class>
+                                               <color-code>#f1f5f9</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-200 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>200</color-class>
+                                               <color-code>#e2e8f0</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-300 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>300</color-class>
+                                               <color-code>#cbd5e1</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-400 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>400</color-class>
+                                               <color-code>#94a3b8</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-500 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>500</color-class>
+                                               <color-code>#64748b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-600 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>600</color-class>
+                                               <color-code>#475569</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-700 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>700</color-class>
+                                               <color-code>#334155</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-800 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>800</color-class>
+                                               <color-code>#1e293b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-900 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>900</color-class>
+                                               <color-code>#0f172a</color-code>
+                                           </color-info>
+                                    </swatch>
+                            </color-saturation>
+                        </palette>   
+
+                        <palette class="flex-row">
+                            <h4>Slate</h4>
+                            <color-saturation class="flex-row">
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-50 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>50</color-class>
+                                               <color-code>#f8fafc</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-100 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>100</color-class>
+                                               <color-code>#f1f5f9</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-200 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>200</color-class>
+                                               <color-code>#e2e8f0</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-300 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>300</color-class>
+                                               <color-code>#cbd5e1</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-400 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>400</color-class>
+                                               <color-code>#94a3b8</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-500 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>500</color-class>
+                                               <color-code>#64748b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-600 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>600</color-class>
+                                               <color-code>#475569</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-700 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>700</color-class>
+                                               <color-code>#334155</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-800 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>800</color-class>
+                                               <color-code>#1e293b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-900 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>900</color-class>
+                                               <color-code>#0f172a</color-code>
+                                           </color-info>
+                                    </swatch>
+                            </color-saturation>
+                        </palette>  
+
+                        <palette class="flex-row">
+                            <h4>Slate</h4>
+                            <color-saturation class="flex-row">
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-50 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>50</color-class>
+                                               <color-code>#f8fafc</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-100 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>100</color-class>
+                                               <color-code>#f1f5f9</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-200 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>200</color-class>
+                                               <color-code>#e2e8f0</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-300 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>300</color-class>
+                                               <color-code>#cbd5e1</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-400 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>400</color-class>
+                                               <color-code>#94a3b8</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-500 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>500</color-class>
+                                               <color-code>#64748b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-600 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>600</color-class>
+                                               <color-code>#475569</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-700 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>700</color-class>
+                                               <color-code>#334155</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-800 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>800</color-class>
+                                               <color-code>#1e293b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-900 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>900</color-class>
+                                               <color-code>#0f172a</color-code>
+                                           </color-info>
+                                    </swatch>
+                            </color-saturation>
+                        </palette>
+
+                        <palette class="flex-row">
+                            <h4>Slate</h4>
+                            <color-saturation class="flex-row">
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-50 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>50</color-class>
+                                               <color-code>#f8fafc</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-100 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>100</color-class>
+                                               <color-code>#f1f5f9</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-200 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>200</color-class>
+                                               <color-code>#e2e8f0</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-300 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>300</color-class>
+                                               <color-code>#cbd5e1</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-400 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>400</color-class>
+                                               <color-code>#94a3b8</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-500 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>500</color-class>
+                                               <color-code>#64748b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-600 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>600</color-class>
+                                               <color-code>#475569</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-700 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>700</color-class>
+                                               <color-code>#334155</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-800 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>800</color-class>
+                                               <color-code>#1e293b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-900 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>900</color-class>
+                                               <color-code>#0f172a</color-code>
+                                           </color-info>
+                                    </swatch>
+                            </color-saturation>
+                        </palette>
+
+                        <palette class="flex-row">
+                            <h4>Slate</h4>
+                            <color-saturation class="flex-row">
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-50 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>50</color-class>
+                                               <color-code>#f8fafc</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-100 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>100</color-class>
+                                               <color-code>#f1f5f9</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-200 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>200</color-class>
+                                               <color-code>#e2e8f0</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-300 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>300</color-class>
+                                               <color-code>#cbd5e1</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-400 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>400</color-class>
+                                               <color-code>#94a3b8</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-500 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>500</color-class>
+                                               <color-code>#64748b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-600 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>600</color-class>
+                                               <color-code>#475569</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-700 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>700</color-class>
+                                               <color-code>#334155</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-800 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>800</color-class>
+                                               <color-code>#1e293b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-900 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>900</color-class>
+                                               <color-code>#0f172a</color-code>
+                                           </color-info>
+                                    </swatch>
+                            </color-saturation>
+                        </palette>   
+
+                        <palette class="flex-row">
+                            <h4>Slate</h4>
+                            <color-saturation class="flex-row">
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-50 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>50</color-class>
+                                               <color-code>#f8fafc</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-100 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>100</color-class>
+                                               <color-code>#f1f5f9</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-200 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>200</color-class>
+                                               <color-code>#e2e8f0</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-300 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>300</color-class>
+                                               <color-code>#cbd5e1</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-400 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>400</color-class>
+                                               <color-code>#94a3b8</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-500 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>500</color-class>
+                                               <color-code>#64748b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-600 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>600</color-class>
+                                               <color-code>#475569</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-700 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>700</color-class>
+                                               <color-code>#334155</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-800 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>800</color-class>
+                                               <color-code>#1e293b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-900 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>900</color-class>
+                                               <color-code>#0f172a</color-code>
+                                           </color-info>
+                                    </swatch>
+                            </color-saturation>
+                        </palette>  
+
+                        <palette class="flex-row">
+                            <h4>Slate</h4>
+                            <color-saturation class="flex-row">
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-50 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>50</color-class>
+                                               <color-code>#f8fafc</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-100 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>100</color-class>
+                                               <color-code>#f1f5f9</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-200 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>200</color-class>
+                                               <color-code>#e2e8f0</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-300 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>300</color-class>
+                                               <color-code>#cbd5e1</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-400 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>400</color-class>
+                                               <color-code>#94a3b8</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-500 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>500</color-class>
+                                               <color-code>#64748b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-600 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>600</color-class>
+                                               <color-code>#475569</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-700 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>700</color-class>
+                                               <color-code>#334155</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-800 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>800</color-class>
+                                               <color-code>#1e293b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-900 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>900</color-class>
+                                               <color-code>#0f172a</color-code>
+                                           </color-info>
+                                    </swatch>
+                            </color-saturation>
+                        </palette>
+
+                        <palette class="flex-row">
+                            <h4>Slate</h4>
+                            <color-saturation class="flex-row">
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-50 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>50</color-class>
+                                               <color-code>#f8fafc</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-100 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>100</color-class>
+                                               <color-code>#f1f5f9</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-200 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>200</color-class>
+                                               <color-code>#e2e8f0</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-300 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>300</color-class>
+                                               <color-code>#cbd5e1</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-400 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>400</color-class>
+                                               <color-code>#94a3b8</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-500 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>500</color-class>
+                                               <color-code>#64748b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-600 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>600</color-class>
+                                               <color-code>#475569</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-700 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>700</color-class>
+                                               <color-code>#334155</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-800 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>800</color-class>
+                                               <color-code>#1e293b</color-code>
+                                           </color-info>
+                                    </swatch>
+                                    <swatch class="flex-column">
+                                        <div class="bg-slate-900 fill"></div>
+                                           <color-info class="flex-column">
+                                               <color-class>900</color-class>
+                                               <color-code>#0f172a</color-code>
+                                           </color-info>
+                                    </swatch>
+                            </color-saturation>
+                        </palette>
+                    </color>
+                </section>
+        
+                 <!-- Typography -->
+                <section id="Typography">
+                    <h1>✏️ Typography</h1>
+                    <!-- Font Family -->
+                    <h2 class="blue-600 ">Font family</h2>
+                    <div class="flex-column font-all">
+                        <div class="flex-row font-family">
+                            <div class="flex-column font-name inter">
+                                <h4 class="font-sans">font-sans</h4>
+                                <h1 class="font-sans">Inter</h1>
+                            </div>
+                            <div class="flex-column dummy-text inter">
+                                <p class=" dummy-1 font-sans">The quick brown fox jumps over the lazy dog.</p>
+                                <p class=" dummy-2 font-sans">The quick brown fox jumps over the lazy dog.</p>
+                                <p class=" dummy-3 font-sans">The quick brown fox jumps over the lazy dog.</p>
+                            </div>
+                        </div>
+                        <div class="flex-row font-family">
+                            <div class="flex-column font-name domine">
+                                <h4 class="font-serif">font-serif</h4>
+                                <h1 class="font-serif">Domine</h1>
+                            </div>
+                            <div class="flex-column dummy-text domine">
+                                <p class=" dummy-1 font-serif">The quick brown fox jumps over the lazy dog.</p>
+                                <p class=" dummy-2 font-serif">The quick brown fox jumps over the lazy dog.</p>
+                                <p class=" dummy-3 font-serif">The quick brown fox jumps over the lazy dog.</p>
+                            </div>
+                        </div>
+                        <div class="flex-row font-family">
+                            <div class="flex-column font-name inconsolata">
+                                <h4 class="font-mono">font-mono</h4>
+                                <h1 class="font-mono">Inconsolata</h1>
+                            </div>
+                            <div class="flex-column dummy-text inconsolata">
+                                <p class=" dummy-1 font-mono">The quick brown fox jumps over the lazy dog.</p>
+                                <p class=" dummy-2 font-mono">The quick brown fox jumps over the lazy dog.</p>
+                                <p class=" dummy-3 font-mono">The quick brown fox jumps over the lazy dog.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Text Style -->
+                    <h2 class="blue-600 ">Text Style</h2>
+                    <div class="flex-column text-style">
+                        <div class="flex-row heading">
+                            <h1>Heading 1</h1>
+                            <h1 class="dummy-text">The quick brown fox jumps over the lazy dog.</h1>
+                        </div>
+                        <div class="flex-row heading">
+                            <h2>Heading 2</h2>
+                            <h2 class="dummy-text">The quick brown fox jumps over the lazy dog.</h2>
+                        </div>
+                        <div class="flex-row heading">
+                            <h3>Heading 3</h3>
+                            <h3 class="dummy-text">The quick brown fox jumps over the lazy dog.</h3>
+                        </div>
+                        <div class="flex-row heading">
+                            <h4>Heading 4</h4>
+                            <h4 class="dummy-text">The quick brown fox jumps over the lazy dog.</h4>
+                        </div>
+                        <div class="flex-row heading">
+                            <p class="body-text">Body</p>
+                            <p class="dummy-text body-text">The quick brown fox jumps over the lazy dog.</p>
+                        </div>
+                        <div class="flex-row heading">
+                            <p class="body-text-alt">Body-alt</p>
+                            <p class="dummy-text body-text-alt">The quick brown fox jumps over the lazy dog.</p>
+                        </div>
+                    </div>
+                    <!-- Rulesets -->
+                    <h3 class="green-600">RULESETS</h3>
+                    <div class="flex-row rulesets">
+                        <div class="flex-column rule-item">
+                            <h1>Heading 1</h1>
+                            <p>font-style: normal; <br>
+                                font-weight: 700;<br>
+                                font-size: 28px;<br>
+                                line-height: 36px;</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </content>
+     </main>
+
+</body>
+</html>

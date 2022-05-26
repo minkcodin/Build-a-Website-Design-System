@@ -1,0 +1,660 @@
+* {
+    font-family: 'Inter', 'Domine', 'Inconsolata';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    color: #0f172a;
+
+}
+
+/* ---------- DESIGN SYSTEM ---------- */
+
+/* COLORS */
+
+/* Slate */
+.slate-50 {
+    color: #f8fafc;
+}
+.bg-slate-50 {
+    background-color: #f8fafc;
+}
+
+.slate-100 {
+    color: #f1f5f9;
+}
+.bg-slate-100 {
+    background-color: #f1f5f9;
+}
+
+.slate-200 {
+    color: #e2e8f0;
+}
+.bg-slate-200 {
+    background-color: #e2e8f0;
+}
+
+.slate-300 {
+    color: #cbd5e1;
+}
+.bg-slate-300 {
+    background-color: #cbd5e1;
+}
+
+.slate-400 {
+    color: #94a3b8;
+}
+.bg-slate-400 {
+    background-color: #94a3b8;
+}
+
+.slate-500 {
+    color: #64748b;
+}
+.bg-slate-500 {
+    background-color: #64748b;
+}
+
+.slate-600 {
+    color: #475569;
+}
+.bg-slate-600 {
+    background-color: #475569;
+}
+
+.slate-700 {
+    color: #334155;
+}
+.bg-slate-700 {
+    background-color: #334155;
+}
+
+.slate-800 {
+    color: #1e293b;
+}
+.bg-slate-800 {
+    background-color: #1e293b;
+}
+
+.slate-900 {
+    color: #0f172a;
+}
+.bg-slate-900 {
+    background-color: #0f172a;
+}
+
+/* Gray */
+.gray-50 {
+    color: #f9fafb;
+}
+.bg-gray-50 {
+    background-color: #f9fafb;
+}
+
+.gray-100 {
+    color: #f3f4f6;
+}
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.gray-200 {
+    color: #e5e7eb;
+}
+.bg-gray-200 {
+    background-color: #e5e7eb;
+}
+
+.gray-300 {
+    color: #d1d5db;
+}
+.bg-gray-300 {
+    background-color: #d1d5db;
+}
+
+.gray-400 {
+    color: #9ca3af;
+}
+.bg-gray-400 {
+    background-color: #9ca3af;
+}
+
+.gray-500 {
+    color: #6b7280;
+}
+.bg-gray-500 {
+    background-color: #6b7280;
+}
+
+.gray-600 {
+    color: #4b5563;
+}
+.bg-gray-600 {
+    background-color: #4b5563;
+}
+
+.gray-700 {
+    color: #374151;
+}
+.bg-gray-700 {
+    background-color: #374151;
+}
+
+.gray-800 {
+    color: #1f2937;
+}
+.bg-gray-800 {
+    background-color: #1f2937;
+}
+
+.gray-900 {
+    color: #111827;
+}
+.bg-gray-900 {
+    background-color: #111827;
+}
+
+/* Red */
+.red-50 {
+    color: #fef2f2;
+}
+.bg-red-50 {
+    background-color: #fef2f2;
+}
+
+.red-100 {
+    color: #fee2e2;
+}
+.bg-red-100 {
+    background-color: #fee2e2;
+}
+
+.red-200 {
+    color: #fecaca;
+}
+.bg-red-200 {
+    background-color: #fecaca;
+}
+
+.red-300 {
+    color: #fca5a5;
+}
+.bg-red-300 {
+    background-color: #fca5a5;
+}
+
+.red-400 {
+    color: #f87171;
+}
+.bg-red-400 {
+    background-color: #f87171;
+}
+
+.red-500 {
+    color: #ef4444;
+}
+.bg-red-500 {
+    background-color: #ef4444;
+}
+
+.red-600 {
+    color: #dc2626;
+}
+.bg-red-600 {
+    background-color: #dc2626;
+}
+
+.red-700 {
+    color: #b91c1c;
+}
+.bg-red-700 {
+    background-color: #b91c1c;
+}
+
+.red-800 {
+    color: #991b1b;
+}
+.bg-red-800 {
+    background-color: #991b1b;
+}
+
+.red-900 {
+    color: #7f1d1d;
+}
+.bg-red-900 {
+    background-color: #7f1d1d;
+}
+
+/* Orange */
+.orange-50 {
+    color: #fff7ed;
+}
+.bg-orange-50 {
+    background-color: #fff7ed;
+}
+
+.orange-100 {
+    color: #ffedd5;
+}
+.bg-orange-100 {
+    background-color: #ffedd5;
+}
+
+.orange-200 {
+    color: #fed7aa;
+}
+.bg-orange-200 {
+    background-color: #fed7aa;
+}
+
+.orange-300 {
+    color: #fdba74;
+}
+.bg-orange-300 {
+    background-color: #fdba74;
+}
+
+.orange-400 {
+    color: #fb923c;
+}
+.bg-orange-400 {
+    background-color: #fb923c;
+}
+
+.orange-500 {
+    color: #f97316;
+}
+.bg-orange-500 {
+    background-color: #f97316;
+}
+
+.orange-600 {
+    color: #ea580c;
+}
+.bg-orange-600 {
+    background-color: #ea580c;
+}
+
+.orange-700 {
+    color: #c2410c;
+}
+.bg-orange-700 {
+    background-color: #c2410c;
+}
+
+.orange-800 {
+    color: #9a3412;
+}
+.bg-orange-800 {
+    background-color: #9a3412;
+}
+
+.orange-900 {
+    color: #7c2d12;
+}
+.bg-orange-900 {
+    background-color: #7c2d12;
+}
+
+/* Green */
+.green-50 {
+    color: #f0fdf4;
+}
+.bg-green-50 {
+    background-color: #f0fdf4;
+}
+
+.green-100 {
+    color: #dcfce7;
+}
+.bg-green-100 {
+    background-color: #dcfce7;
+}
+
+.green-200 {
+    color: #bbf7d0;
+}
+.bg-green-200 {
+    background-color: #bbf7d0;
+}
+
+.green-300 {
+    color: #86efac;
+}
+.bg-green-300 {
+    background-color: #86efac;
+}
+
+.green-400 {
+    color: #4ade80;
+}
+.bg-green-400 {
+    background-color: #4ade80;
+}
+
+.green-500 {
+    color: #22c55e;
+}
+.bg-green-500 {
+    background-color: #22c55e;
+}
+
+.green-600 {
+    color: #16a34a;
+}
+.bg-green-600 {
+    background-color: #16a34a;
+}
+
+.green-700 {
+    color: #15803d;
+}
+.bg-green-700 {
+    background-color: #15803d;
+}
+
+.green-800 {
+    color: #166534;
+}
+.bg-green-800 {
+    background-color: #166534;
+}
+
+.green-900 {
+    color: #14532d;
+}
+.bg-green-900 {
+    background-color: #14532d;
+}
+
+/* Teal */
+.teal-50 {
+    color: #f0fdfa;
+}
+.bg-teal-50 {
+    background-color: #f0fdfa;
+}
+
+.teal-100 {
+    color: #ccfbf1;
+}
+.bg-teal-100 {
+    background-color: #ccfbf1;
+}
+
+.teal-200 {
+    color: #99f6e4;
+}
+.bg-teal-200 {
+    background-color: #99f6e4;
+}
+
+.teal-300 {
+    color: #5eead4;
+}
+.bg-teal-300 {
+    background-color: #5eead4;
+}
+
+.teal-400 {
+    color: #2dd4bf;
+}
+.bg-teal-400 {
+    background-color: #2dd4bf;
+}
+
+.teal-500 {
+    color: #14b8a6;
+}
+.bg-teal-500 {
+    background-color: #14b8a6;
+}
+
+.teal-600 {
+    color: #0d9488;
+}
+.bg-teal-600 {
+    background-color: #0d9488;
+}
+
+.teal-700 {
+    color: #0f766e;
+}
+.bg-teal-700 {
+    background-color: #0f766e;
+}
+
+.teal-800 {
+    color: #115e59;
+}
+.bg-teal-800 {
+    background-color: #115e59;
+}
+
+.teal-900 {
+    color: #134e4a;
+}
+.bg-teal-900 {
+    background-color: #134e4a;
+}
+
+/* Cyan */
+.cyan-50 {
+    color: #ecfeff;
+}
+.bg-cyan-50 {
+    background-color: #ecfeff;
+}
+
+.cyan-100 {
+    color: #cffafe;
+}
+.bg-cyan-100 {
+    background-color: #cffafe;
+}
+
+.cyan-200 {
+    color: #a5f3fc;
+}
+.bg-cyan-200 {
+    background-color: #a5f3fc;
+}
+
+.cyan-300 {
+    color: #67e8f9;
+}
+.bg-cyan-300 {
+    background-color: #67e8f9;
+}
+
+.cyan-400 {
+    color: #22d3ee;
+}
+.bg-cyan-400 {
+    background-color: #22d3ee;
+}
+
+.cyan-500 {
+    color: #06b6d4;
+}
+.bg-cyan-500 {
+    background-color: #06b6d4;
+}
+
+.cyan-600 {
+    color: #0891b2;
+}
+.bg-cyan-600 {
+    background-color: #0891b2;
+}
+
+.cyan-700 {
+    color: #0e7490;
+}
+.bg-cyan-700 {
+    background-color: #0e7490;
+}
+
+.cyan-800 {
+    color: #155e75;
+}
+.bg-cyan-800 {
+    background-color: #155e75;
+}
+
+.cyan-900 {
+    color: #164e63;
+}
+.bg-cyan-900 {
+    background-color: #164e63;
+}
+
+/* Blue */
+.blue-50 {
+    color: #eff6ff;
+}
+.bg-blue-50 {
+    background-color: #eff6ff;
+}
+
+.blue-100 {
+    color: #dbeafe;
+}
+.bg-blue-100 {
+    background-color: #dbeafe;
+}
+
+.blue-200 {
+    color: #bfdbfe;
+}
+.bg-blue-200 {
+    background-color: #bfdbfe;
+}
+
+.blue-300 {
+    color: #93c5fd;
+}
+.bg-blue-300 {
+    background-color: #93c5fd;
+}
+
+.blue-400 {
+    color: #60a5fa;
+}
+.bg-blue-400 {
+    background-color: #60a5fa;
+}
+
+.blue-500 {
+    color: #3b82f6;
+}
+.bg-blue-500 {
+    background-color: #3b82f6;
+}
+
+.blue-600 {
+    color: #2563eb;
+}
+.bg-blue-600 {
+    background-color: #2563eb;
+}
+
+.blue-700 {
+    color: #1d4ed8;
+}
+.bg-blue-700 {
+    background-color: #1d4ed8;
+}
+
+.blue-800 {
+    color: #1e40af;
+}
+.bg-blue-800 {
+    background-color: #1e40af;
+}
+
+.blue-900 {
+    color: #1e3a8a;
+}
+.bg-blue-900 {
+    background-color: #1e3a8a;
+}
+
+/* TYPOGRAPHY */
+
+/* Font Family */
+
+.font-sans {
+    font-family: 'Inter';
+}
+
+.font-serif {
+    font-family: 'Domine';
+}
+
+.font-mono {
+    font-family: 'Inconsolata';
+}
+
+/* Text Style */
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+p.body-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p.body-text-alt {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.link-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
